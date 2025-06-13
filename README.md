@@ -1,8 +1,8 @@
 
-### Url-Shortener
+# Url-Shortener
 A lightweight, self-hosted URL shortener built with Python and static site hosting. This solution gives you complete control over your shortened links without relying on third-party services. So do give it a try...
 
-#### Features
+### Features
 - Self-hosted - No external dependencies or third-party tracking
 - Full control - Manage all your URLs with complete ownership
 - Simple setup - Deploys as a static site with Python backend
