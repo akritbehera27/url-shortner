@@ -1,0 +1,8 @@
+# Ignore everything in the public directory except index.html
+public/*
+!public/index.html
+!public/
+
+# Ignoring logs
+logs/*
+!logs/.gitkeep
