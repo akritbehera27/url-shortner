@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Template</title>
+    <script>
+        setTimeout(function() {
+            window.location.href = "REDIRECTIONLINK";
+        }, 10); // 100ms delay (can be set to 0)
+    </script>
+    <style type="text/css">
+        body {
+            background-color: #edeaeaab;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+        }
+        .main {
+            width: 600px;
+            background-color: #fffffff3;
+            border-radius: 0.5em;
+            box-shadow: 2px 3px 7px 2px rgba(0, 0, 0, 0.305);
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+        }
+        .text {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        p{
+            font-size:medium;
+            font-weight: 600;
+        }
+        a:link, a:visited {
+            color: #38488f;
+            text-decoration: none;
+        }
+
+        @media (max-width: 1100px) {
+
+        }
+
+        /* Small screens only (≤600px) */
+        @media (max-width: 600px) {
+            .text {
+                    margin-left: 15px;
+                    margin-right: 10px;
+                }
+            .topchange {
+                    margin-top: 4vh;
+                }
+        }
+
+        /* Medium screens only (601px-1100px) */
+        @media (min-width: 601px) and (max-width: 1100px) {
+            .topchange {
+                    margin-top: 5vh;
+                }
+        }
+
+        /* Large screens (>1100px) */
+        @media (min-width: 1101px) {
+            .topchange {
+                    margin-top: 7vh;
+                }
+        }
+
+    </style>    
+</head>
+
+<body>
+    <div class="main topchange">
+        <div class="text">
+            <p>If you are not redirected automatically, <a href="REDIRECTIONLINK">click here</a>.</p>
+        </div>
+    </div>
+
+</body>
+</html>

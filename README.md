@@ -8,7 +8,7 @@ A lightweight, self-hosted URL shortener built with Python and static site hosti
 - Simple setup - Deploys as a static site with Python backend
 - Custom slugs - Choose your own short codes
 
-#### Tech Stack
+### Tech Stack
 - **Backend**: Python
 - **Frontend**: Static HTML/JS (compatible with GitHub Pages, Netlify, Vercel)
 - **Database**: None For minimalism
@@ -16,15 +16,14 @@ A lightweight, self-hosted URL shortener built with Python and static site hosti
 - **Logs**: Logs are Stored at logs/links and logs/shorturls
 
 
-#### Prerequisites
+### Prerequisites
 This program is too light weight it only requires these...
 - Python 3.8+
 - pip package manager
 - Any Static Webhosting
 
   
-
-#### Installation
+### Installation
 
 ```
  # Clone the repository
